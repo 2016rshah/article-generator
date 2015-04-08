@@ -1,6 +1,8 @@
 #CNN CMS with CSS!
 And also with Ruby on Rails, but who doesn't love acronyms that start with C?
 
+![Example Article](CNN_CMS_Example.png)
+
 #What?
 This is an article-generator created as a content management system for Model United Nations Conference organizers to spoof CNN articles. It is definitely a niche product but creating fake news articles is very important in MUN committees for delegates to get press releases. It will be used at TechMUN (Thomas Jefferson High School for Science and Technology's Model United Nations Conference). 
 
