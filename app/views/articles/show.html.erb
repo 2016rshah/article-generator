@@ -1,0 +1,25 @@
+<% content_for :title, @article.title %>
+<%= render 'cnn_hdr' %>
+<div class="cnn_storyarea" id="cnnContentContainer">
+    <h1><%= @article.title %></h1>
+	<div class="cnn_stryathrtmp">
+		<div class="cnnByline">By <strong><%= @article.author %></strong>, CNN</div>
+		<div class="cnn_strytmstmp">Updated <%= @article.date %></div>
+	</div>
+	<div class="cnn_strycntntlft">
+		<div class="cnn_strylftcntnt">
+			<div class="cnn_strylctcntr">
+				<div><strong>SITE HIGHLIGHTS</strong></div>
+				<ul class="cnn_bulletbin cnnStryHghLght">
+					<li><b>NEW:</b> New articles can be made at the <a href = "/articles/new">new page</a></li>
+					<li><b>NEW:</b> All past articles can be viewed on the <a href = "/">index page</a></li>
+					<li>View the source on <a href = "https://github.com/2016rshah/article-creator">github</a></li>
+					<li>'Twas made with Ruby on Rails by Rushi Shah</li>
+					<li>This is in no way affiliated with the actual CNN.com.</li>
+				</ul>
+			</div>
+		</div>
+		<p class = "cnn_storypgraphtxt"><%= simple_format(@article.content) %></p>
+		<p class="cnn_strycbftrtxt">This is just an example of a credit paragraph. CNN's Rushi Shah and <%= @article.author %> were involved in the making of this article.</p>
+	</div>
+</div>

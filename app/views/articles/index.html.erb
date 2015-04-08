@@ -1,0 +1,9 @@
+<% content_for :title, "Article Generator" %>
+<div class = "index">
+    <h1>All articles</h1>
+    <% @articles.each do |article| %>
+        <a><%= link_to article.title+" by "+article.author, article %></a>
+        <br>
+    <% end %>
+    <%= link_to "New article", new_article_path, class: "btn btn--m btn--blue" %>
+</div>
