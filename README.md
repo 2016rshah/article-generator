@@ -1,6 +1,8 @@
 #[CNN CMS with CSS!](http://cnn.rshah.io/)
 And also with Ruby on Rails, but who doesn't love acronyms that start with C?
 
+##[Example](http://cnn.rshah.io/articles/2)
+Please note the article is just a joke. 
 ![Example Article](CNN_CMS_Example.png)
 
 ##What?
@@ -16,11 +18,17 @@ Content management system: the users of the app (like the committee chairs or cr
 Custom style sheets: basically makes it look like CNN articles. Not really relevant to the title but (as I mentioned earlier) who doesn't love acronyms that start with C?
 
 ##How To
-Need to create your own CNN article (for MUN or otherwise)? Just head over to [the site](http://cnn.rshah.io/) and click new article. You can specify the title, author, date, and content. In the content text field line-breaks will be respected. 
+Need to create your own CNN article (for MUN or otherwise)? Just head over to [the site](http://cnn.rshah.io/) and click new article. You can specify the title, author, date, and content. In the content text field line-breaks will be respected.
+
+For more information see the [CNN article](http://cnn.rshah.io/articles/6) on the topic.  
 
 ##To Do
  - User Accounts
  - Make it more secure (there are massive security flaws right now)
+ - Images in articles
+ - Links in articles (perhaps make it support markdown?)
+ - Editing articles after they are created
+ - Allow more customization of articles like the credit paragraph and the sidebar content
 
 ##How it's made
 This is a Ruby on Rails application (my first, in fact!) that was deployed using Heroku. 
