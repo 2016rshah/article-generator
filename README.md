@@ -15,7 +15,7 @@ Like the news source.
 Content management system: the users of the app (like the committee chairs or crisis staff) can manage the articles without having to touch anything tech-related. They just type their content into a form and this app will take care of the rest. 
 
 ##CSS?
-Custom style sheets: basically makes it look like CNN articles. Not really relevant to the title but (as I mentioned earlier) who doesn't love acronyms that start with C?
+Cascading style sheets: basically makes it look like CNN articles. Not really relevant to the title but (as I mentioned earlier) who doesn't love acronyms that start with C?
 
 ##How To
 Need to create your own CNN article (for MUN or otherwise)? Just head over to [the site](http://cnn.rshah.io/) and click new article. You can specify the title, author, date, and content. In the content text field line-breaks will be respected.
