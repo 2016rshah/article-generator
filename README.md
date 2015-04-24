@@ -30,6 +30,7 @@ For more information see the [CNN article](http://cnn.rshah.io/articles/6) on th
  - Editing articles after they are created
  - Allow more customization of articles like the credit paragraph and the sidebar content
  - Style the list of articles to look like they are on CNN as well
+ - Input validation (no empty fields, etc.)
 
 ##How it's made
 This is a Ruby on Rails application (my first, in fact!) that was deployed using Heroku. 
