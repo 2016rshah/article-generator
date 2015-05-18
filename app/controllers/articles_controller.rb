@@ -18,6 +18,25 @@ class ArticlesController < ApplicationController
         @article.destroy
         redirect_to root_path
     end
+
+    def edit
+
+    end
+
+    def update
+      if @article.update_attributes(params[:article].permit(:title, :author, :date, :content))
+         redirect_to :action => 'show', :id => @article
+      else
+         render :action => 'edit', :id => @article
+      end
+   end
+
+   # def update
+   #  if @user.update_attributes(user_params)
+   #    # Handle a successful update.
+   #  else
+   #    render 'edit'
+   # end
     
     
     private

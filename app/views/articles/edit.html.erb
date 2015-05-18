@@ -1,0 +1,15 @@
+<% content_for :title, "Edit Article" %>
+<div class = "edit">
+  <h1>Edit Article</h1>
+  <div class = "form">
+    <%= form_for @article do |f| %>
+      <%= f.text_field :title, class: "textbox title", placeholder: :Title %><br>
+      <%= f.text_field :author, class: "textbox info", placeholder: :Author %>
+      <%= f.text_field :date, class: "textbox info", placeholder: :Date %>
+      <%= f.text_area :content, class: "textbox textarea", placeholder: :Content %>
+      <br>
+      <%= f.submit "Submit", class: "btn btn--blue" %> 
+    <% end %>
+    <%= link_to "Home", root_path, class: "btn btn--gray-border" %>
+  </div>
+</div>

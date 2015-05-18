@@ -1,0 +1,41 @@
+.edit{
+    @import "styles";
+    text-align:center;
+    .form{
+      float:left;
+      height:86%;
+      width:100%;
+      box-sizing:border-box;
+      padding:40px;
+    }
+    .textbox{
+      height:50px;
+      width:20%;
+      border-radius:3px;
+      border:rgba(0,0,0,.3) 2px solid;
+      box-sizing:border-box;
+      padding:10px;
+      margin-bottom:30px;
+    }
+    
+    .textbox:focus{
+      outline:none;
+       border:rgba(24,149,215,1) 2px solid;
+       color:rgba(24,149,215,1);
+    }
+
+    .textarea{
+        height:300px;
+        width:60%;
+    }
+    
+    .title{
+        width:60%;
+    }
+    .info{
+        width:30%;
+    }
+    h1{
+        font-size:50px;
+    }
+}
