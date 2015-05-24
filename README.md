@@ -14,8 +14,8 @@ Nowadays though it is just for anybody who wants to spoof a CNN article. Want to
 ##To Do
  - User Accounts
  - Make it more secure (there are massive security flaws right now)
- - Images in articles
- - Links in articles (perhaps make it support markdown?)
+ - ~~Images in articles~~
+ - ~~Links in articles~~
  - ~~Editing articles after they are created~~
  - Allow more customization of articles like the credit paragraph and the sidebar content
  - Style the list of articles to look like they are on CNN as well
