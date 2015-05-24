@@ -30,14 +30,6 @@ class ArticlesController < ApplicationController
          render :action => 'edit', :id => @article
       end
    end
-
-   # def update
-   #  if @user.update_attributes(user_params)
-   #    # Handle a successful update.
-   #  else
-   #    render 'edit'
-   # end
-    
     
     private
     
