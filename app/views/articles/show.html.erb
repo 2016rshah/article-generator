@@ -19,7 +19,7 @@
 				</ul>
 			</div>
 		</div>
-		<p class = "cnn_storypgraphtxt"><%= simple_format(@article.content) %></p>
+		<p class = "cnn_storypgraphtxt"><%= simple_format (sanitize @article.content, tags: %w(b strong i em a img)) %></p>
 		<p class="cnn_strycbftrtxt">This is just an example of a credit paragraph. CNN's Rushi Shah and <%= @article.author %> were involved in the making of this article.</p>
 	</div>
 </div>
