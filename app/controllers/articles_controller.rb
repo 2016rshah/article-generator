@@ -5,9 +5,13 @@ class ArticlesController < ApplicationController
     end
     
     def create
+      if verify_recaptcha(:model => @post, :message => "Oh! It's error with reCAPTCHA!", :private_key => ENV["RECAPTCHA_PRIVATE_KEY"])
         @article = Article.new(article_params)
         @article.save()
         redirect_to @article
+      else
+          redirect_to root_path
+      end
     end
     
     def show

@@ -8,6 +8,7 @@
       <%= f.text_field :date, class: "textbox info", placeholder: :Date %>
       <%= f.text_area :content, class: "textbox textarea", placeholder: :Content %>
       <br>
+      <%= recaptcha_tags :public_key => ENV["RECAPTCHA_PUBLIC_KEY"] %>
       <%= f.submit "Submit", class: "btn btn--blue" %> 
     <% end %>
     <%= link_to "Home", root_path, class: "btn btn--gray-border" %>

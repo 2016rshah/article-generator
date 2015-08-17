@@ -18,5 +18,6 @@
 #Mac
 .DS_Store
 
-#Recaptcha 
-config/initializers/recaptcha.rb
+
+# Ignore application configuration
+/config/application.yml
