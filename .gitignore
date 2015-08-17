@@ -17,3 +17,6 @@
 
 #Mac
 .DS_Store
+
+#Recaptcha 
+config/initializers/recaptcha.rb
