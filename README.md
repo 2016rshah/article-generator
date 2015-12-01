@@ -1,10 +1,10 @@
-#[Create Your Own CNN Article](http://cnn.rshah.io/)
+#[Create Your Own CNN Article](http://cnn.rshah.org/)
 ![Example Article](CNN_Article_Example.png)
 
 ##How To
-Want to create your own CNN article? Just head over to [the site](http://cnn.rshah.io/) and click new article. You can specify the title, author, date, and content. In the content text field line-breaks will be respected.
+Want to create your own CNN article? Just head over to [the site](http://cnn.rshah.org/) and click new article. You can specify the title, author, date, and content. In the content text field line-breaks will be respected.
 
-For more information see the [CNN article](http://cnn.rshah.io/articles/6) on the topic.  
+For more information see the [CNN article](http://cnn.rshah.org/articles/6) on the topic.  
 
 ##Why
 This app originally came about to let the organizers of Model United Nations Conferences create press-releases on events (fictionally) transpiring in their committees to update the delegates. It was used extensively at TechMUN ([Thomas Jefferson High School for Science and Technology](http://www.newsweek.com/2014/09/19/number-1-high-school-america-offers-real-head-start-268693.html)'s MUN conference) in the Russian Cabinet Committee and the United Nations Security Council Committee.
