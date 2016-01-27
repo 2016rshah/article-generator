@@ -7,11 +7,17 @@ class ArticlesController < ApplicationController
     def create
       if verify_recaptcha(:model => @post, :message => "Oh! It's error with reCAPTCHA!", :private_key => ENV["RECAPTCHA_PRIVATE_KEY"])
         @article = Article.new(article_params)
-        @article.save()
-        redirect_to @article
+        if @article.save
+          redirect_to @article
+        else
+          redirect_to :action => 'errorPage'
+        end
       else
-          redirect_to root_path
+          redirect_to :action => 'errorPage'
       end
+    end
+
+    def errorPage
     end
     
     def show
