@@ -1,3 +1,7 @@
+#UPDATE:
+
+This is not fake news, I actually took the entire project down. This started as an innocent way to make a beloved high school activity more enjoyable. But fake news is now like a *thing*, and I didn't want to perpetuate that trend so I stopped hosting it. I don't see a real danger of deceiving people by leaving the source code up on Github so this page will survive. 
+
 #[Create Your Own CNN Article](http://cnn.rshah.org/)
 ![Example Article](CNN_Article_Example.png)
 
