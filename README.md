@@ -28,5 +28,16 @@ Nowadays though it is just for anybody who wants to spoof a CNN article. Want to
 ## Contributing
 Think this project is awesome? Contribute to it! Think it is really awful? Contribute to it anyways to make it less awful! Either way, please contribute! If you see anything you want to help out with open up an issue. If you think your fix is simple enough not to warrant an issue just send in a pull request. As usual, follow good coding practice: please keep code neat, make sure it works, etc. 
 
+## Deploying to Heroku
+
+Whip up your own heroku app and google recaptcha instance, then
+
+```
+$ heroku git:remote -a name-of-your-heroku-app
+$ heroku run rake db:migrate
+$ heroku config:set RECAPTCHA_PRIVATE_KEY=<your-recaptcha-private-key>
+$ heroku config:set RECAPTCHA_PUBLIC_KEY=<your-recaptcha-public-key>
+```
+
 ## How it's made
 This is a Ruby on Rails application (my first, in fact!) that was deployed using Heroku. 
